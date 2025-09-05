@@ -10,5 +10,8 @@ export default defineNuxtConfig({
     ],
   },
   // ssr: false,
-  modules: ['@formkit/auto-animate/nuxt']
+  modules: [
+    '@formkit/auto-animate/nuxt',
+    'motion-v/nuxt',
+  ]
 })
